@@ -16,6 +16,7 @@ class InterfaceController: WKInterfaceController
 {
 
     @IBOutlet var SongsTable: WKInterfaceTable!
+    @IBOutlet var loadingImage: WKInterfaceImage!
     var jsonData: JSON?
     var songs: [Song] = [Song]()
     
@@ -52,10 +53,14 @@ class InterfaceController: WKInterfaceController
     //
     func jsonDataOntvangen(jsonData: JSON)
     {
+        // We slagen de data op in de klasse
         self.jsonData = jsonData
-        makeArray()
         
-
+        // Nu de data binnen is mag het laadicoon weg
+        loadingImage.setHidden(true)
+        SongsTable.setHidden(false)
+        
+        makeArray()
         SongsTable.setNumberOfRows(self.songs.count, withRowType: "SongRow")
             
         for index in 0..<SongsTable.numberOfRows
