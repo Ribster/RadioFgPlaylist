@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--Fg Playlist-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Fg Playlist" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Watch" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="qZN-EX-SEe">
+                            <items>
+                                <tableRow identifier="SongRow" id="tM6-0m-9hd" customClass="SongRowController" customModule="Watch_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="UwX-2U-2hf">
+                                        <items>
+                                            <separator height="1" heightAdjustment="-4" alignment="left" id="AFF-df-shd">
+                                                <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </separator>
+                                            <group alignment="left" layout="vertical" spacing="0.0" id="9bS-Py-P2x">
+                                                <items>
+                                                    <group width="1" alignment="left" layout="vertical" spacing="4" id="Xb6-wG-A80">
+                                                        <items>
+                                                            <group width="1" alignment="left" id="0SQ-BI-x96">
+                                                                <items>
+                                                                    <label alignment="left" text="Next:" id="ses-zs-fvc">
+                                                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                    </label>
+                                                                    <label alignment="right" text="Artiest" id="sqM-H9-skQ">
+                                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                                    </label>
+                                                                </items>
+                                                            </group>
+                                                            <label alignment="center" text="Titelvan lied" textAlignment="center" id="ici-UP-z8b"/>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="artiestLabel" destination="sqM-H9-skQ" id="JKn-Om-AMF"/>
+                                        <outlet property="separator" destination="AFF-df-shd" id="XO9-j6-W9X"/>
+                                        <outlet property="statusLabel" destination="ses-zs-fvc" id="T6r-NN-ObF"/>
+                                        <outlet property="titelLabel" destination="ici-UP-z8b" id="x5N-0F-eiZ"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="SongsTable" destination="qZN-EX-SEe" id="ihh-QK-eit"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.32941176470588235" green="0.68235294117647061" blue="0.050980392156862744" alpha="1" colorSpace="calibratedRGB"/>
+</document>

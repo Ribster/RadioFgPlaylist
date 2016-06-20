@@ -12,7 +12,215 @@
 		09C0D60E1D16BEB10078B7DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C0D60C1D16BEB10078B7DF /* Main.storyboard */; };
 		09C0D6101D16BEB10078B7DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C0D60F1D16BEB10078B7DF /* Assets.xcassets */; };
 		09C0D6131D16BEB10078B7DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C0D6111D16BEB10078B7DF /* LaunchScreen.storyboard */; };
+		09DB99991D16C09900B20485 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB99871D16BFC200B20485 /* Alamofire.framework */; };
+		09DB999A1D16C09900B20485 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB99871D16BFC200B20485 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09DB99E61D16C32300B20485 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB99D91D16C31600B20485 /* SwiftyJSON.framework */; };
+		09DB99E71D16C32300B20485 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB99D91D16C31600B20485 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09DB99F21D16C83A00B20485 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DB99F01D16C83A00B20485 /* Interface.storyboard */; };
+		09DB99F41D16C83A00B20485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DB99F31D16C83A00B20485 /* Assets.xcassets */; };
+		09DB99FB1D16C83B00B20485 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 09DB99FA1D16C83B00B20485 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		09DB9A021D16C83B00B20485 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DB9A011D16C83B00B20485 /* InterfaceController.swift */; };
+		09DB9A081D16C83B00B20485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DB9A071D16C83B00B20485 /* Assets.xcassets */; };
+		09DB9A0C1D16C83B00B20485 /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 09DB99EE1D16C83A00B20485 /* Watch.app */; };
+		09DB9A151D16C84D00B20485 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB99E11D16C31600B20485 /* SwiftyJSON.framework */; };
+		09DB9A161D16C84D00B20485 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB99E11D16C31600B20485 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09DB9A1A1D16C85D00B20485 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB99931D16BFC200B20485 /* Alamofire.framework */; };
+		09DB9A1B1D16C85D00B20485 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB99931D16BFC200B20485 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09DB9A1F1D16CCBB00B20485 /* SongRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DB9A1E1D16CCBB00B20485 /* SongRowController.swift */; };
+		09DB9A211D16CD3900B20485 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DB9A201D16CD3900B20485 /* Song.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09DB99861D16BFC200B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		09DB99881D16BFC200B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		09DB998A1D16BFC200B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		09DB998C1D16BFC200B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		09DB998E1D16BFC200B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		09DB99901D16BFC200B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		09DB99921D16BFC200B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		09DB999B1D16C09900B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		09DB99D81D16C31600B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		09DB99DA1D16C31600B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = "SwiftyJSON iOS Tests";
+		};
+		09DB99DC1D16C31600B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX";
+		};
+		09DB99DE1D16C31600B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX Tests";
+		};
+		09DB99E01D16C31600B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4D7CCE81B9465A700EE7221;
+			remoteInfo = "SwiftyJSON watchOS";
+		};
+		09DB99E21D16C31600B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7236B4F61BAC14150020529B;
+			remoteInfo = "SwiftyJSON tvOS";
+		};
+		09DB99E41D16C31600B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8580F741BCF5C5B00DA927B;
+			remoteInfo = "SwiftyJSON tvOS Tests";
+		};
+		09DB99E81D16C32300B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		09DB99FC1D16C83B00B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C0D5FD1D16BEB00078B7DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DB99F91D16C83B00B20485;
+			remoteInfo = "Watch Extension";
+		};
+		09DB9A0A1D16C83B00B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C0D5FD1D16BEB00078B7DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DB99ED1D16C83A00B20485;
+			remoteInfo = Watch;
+		};
+		09DB9A171D16C84D00B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4D7CCDE1B9465A700EE7221;
+			remoteInfo = "SwiftyJSON watchOS";
+		};
+		09DB9A1C1D16C85D00B20485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4202FCD1B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09DB999D1D16C09900B20485 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				09DB99E71D16C32300B20485 /* SwiftyJSON.framework in Embed Frameworks */,
+				09DB999A1D16C09900B20485 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DB9A101D16C83B00B20485 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				09DB99FB1D16C83B00B20485 /* Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DB9A141D16C83B00B20485 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				09DB9A0C1D16C83B00B20485 /* Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DB9A191D16C84D00B20485 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				09DB9A161D16C84D00B20485 /* SwiftyJSON.framework in Embed Frameworks */,
+				09DB9A1B1D16C85D00B20485 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		09C0D6051D16BEB00078B7DF /* RadioFgPlaylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioFgPlaylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +230,19 @@
 		09C0D60F1D16BEB10078B7DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09C0D6121D16BEB10078B7DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09C0D6141D16BEB10078B7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
+		09DB99EE1D16C83A00B20485 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DB99F11D16C83A00B20485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		09DB99F31D16C83A00B20485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09DB99F51D16C83A00B20485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DB99FA1D16C83B00B20485 /* Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DB9A001D16C83B00B20485 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		09DB9A011D16C83B00B20485 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		09DB9A071D16C83B00B20485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09DB9A091D16C83B00B20485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DB9A1E1D16CCBB00B20485 /* SongRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongRowController.swift; sourceTree = "<group>"; };
+		09DB9A201D16CD3900B20485 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +250,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DB99E61D16C32300B20485 /* SwiftyJSON.framework in Frameworks */,
+				09DB99991D16C09900B20485 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DB99F71D16C83B00B20485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DB9A151D16C84D00B20485 /* SwiftyJSON.framework in Frameworks */,
+				09DB9A1A1D16C85D00B20485 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,7 +270,11 @@
 		09C0D5FC1D16BEB00078B7DF = {
 			isa = PBXGroup;
 			children = (
+				09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */,
+				09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */,
 				09C0D6071D16BEB00078B7DF /* RadioFgPlaylist */,
+				09DB99EF1D16C83A00B20485 /* Watch */,
+				09DB99FE1D16C83B00B20485 /* Watch Extension */,
 				09C0D6061D16BEB00078B7DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +283,8 @@
 			isa = PBXGroup;
 			children = (
 				09C0D6051D16BEB00078B7DF /* RadioFgPlaylist.app */,
+				09DB99EE1D16C83A00B20485 /* Watch.app */,
+				09DB99FA1D16C83B00B20485 /* Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +302,65 @@
 			path = RadioFgPlaylist;
 			sourceTree = "<group>";
 		};
+		09DB997D1D16BFC200B20485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09DB99871D16BFC200B20485 /* Alamofire.framework */,
+				09DB99891D16BFC200B20485 /* Alamofire iOS Tests.xctest */,
+				09DB998B1D16BFC200B20485 /* Alamofire.framework */,
+				09DB998D1D16BFC200B20485 /* Alamofire OSX Tests.xctest */,
+				09DB998F1D16BFC200B20485 /* Alamofire.framework */,
+				09DB99911D16BFC200B20485 /* Alamofire tvOS Tests.xctest */,
+				09DB99931D16BFC200B20485 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09DB99CF1D16C31500B20485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09DB99D91D16C31600B20485 /* SwiftyJSON.framework */,
+				09DB99DB1D16C31600B20485 /* SwiftyJSON iOS Tests.xctest */,
+				09DB99DD1D16C31600B20485 /* SwiftyJSON.framework */,
+				09DB99DF1D16C31600B20485 /* SwiftyJSON OSX Tests.xctest */,
+				09DB99E11D16C31600B20485 /* SwiftyJSON.framework */,
+				09DB99E31D16C31600B20485 /* SwiftyJSON.framework */,
+				09DB99E51D16C31600B20485 /* SwiftyJSON tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09DB99EF1D16C83A00B20485 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				09DB99F01D16C83A00B20485 /* Interface.storyboard */,
+				09DB99F31D16C83A00B20485 /* Assets.xcassets */,
+				09DB99F51D16C83A00B20485 /* Info.plist */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		09DB99FE1D16C83B00B20485 /* Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				09DB9A011D16C83B00B20485 /* InterfaceController.swift */,
+				09DB9A071D16C83B00B20485 /* Assets.xcassets */,
+				09DB9A091D16C83B00B20485 /* Info.plist */,
+				09DB99FF1D16C83B00B20485 /* Supporting Files */,
+				09DB9A1E1D16CCBB00B20485 /* SongRowController.swift */,
+				09DB9A201D16CD3900B20485 /* Song.swift */,
+			);
+			path = "Watch Extension";
+			sourceTree = "<group>";
+		};
+		09DB99FF1D16C83B00B20485 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09DB9A001D16C83B00B20485 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +371,57 @@
 				09C0D6011D16BEB00078B7DF /* Sources */,
 				09C0D6021D16BEB00078B7DF /* Frameworks */,
 				09C0D6031D16BEB00078B7DF /* Resources */,
+				09DB999D1D16C09900B20485 /* Embed Frameworks */,
+				09DB9A141D16C83B00B20485 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				09DB999C1D16C09900B20485 /* PBXTargetDependency */,
+				09DB99E91D16C32300B20485 /* PBXTargetDependency */,
+				09DB9A0B1D16C83B00B20485 /* PBXTargetDependency */,
 			);
 			name = RadioFgPlaylist;
 			productName = RadioFgPlaylist;
 			productReference = 09C0D6051D16BEB00078B7DF /* RadioFgPlaylist.app */;
 			productType = "com.apple.product-type.application";
+		};
+		09DB99ED1D16C83A00B20485 /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DB9A111D16C83B00B20485 /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				09DB99EC1D16C83A00B20485 /* Resources */,
+				09DB9A101D16C83B00B20485 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DB99FD1D16C83B00B20485 /* PBXTargetDependency */,
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = 09DB99EE1D16C83A00B20485 /* Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		09DB99F91D16C83B00B20485 /* Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DB9A0D1D16C83B00B20485 /* Build configuration list for PBXNativeTarget "Watch Extension" */;
+			buildPhases = (
+				09DB99F61D16C83B00B20485 /* Sources */,
+				09DB99F71D16C83B00B20485 /* Frameworks */,
+				09DB99F81D16C83B00B20485 /* Resources */,
+				09DB9A191D16C84D00B20485 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DB9A181D16C84D00B20485 /* PBXTargetDependency */,
+				09DB9A1D1D16C85D00B20485 /* PBXTargetDependency */,
+			);
+			name = "Watch Extension";
+			productName = "Watch Extension";
+			productReference = 09DB99FA1D16C83B00B20485 /* Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +434,14 @@
 				ORGANIZATIONNAME = Olivier;
 				TargetAttributes = {
 					09C0D6041D16BEB00078B7DF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FDQL2B3L5S;
+					};
+					09DB99ED1D16C83A00B20485 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FDQL2B3L5S;
+					};
+					09DB99F91D16C83B00B20485 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = FDQL2B3L5S;
 					};
@@ -111,12 +458,125 @@
 			mainGroup = 09C0D5FC1D16BEB00078B7DF;
 			productRefGroup = 09C0D6061D16BEB00078B7DF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 09DB997D1D16BFC200B20485 /* Products */;
+					ProjectRef = 09DB997C1D16BFC200B20485 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 09DB99CF1D16C31500B20485 /* Products */;
+					ProjectRef = 09DB99CE1D16C31500B20485 /* SwiftyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				09C0D6041D16BEB00078B7DF /* RadioFgPlaylist */,
+				09DB99ED1D16C83A00B20485 /* Watch */,
+				09DB99F91D16C83B00B20485 /* Watch Extension */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		09DB99871D16BFC200B20485 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 09DB99861D16BFC200B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB99891D16BFC200B20485 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 09DB99881D16BFC200B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB998B1D16BFC200B20485 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 09DB998A1D16BFC200B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB998D1D16BFC200B20485 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 09DB998C1D16BFC200B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB998F1D16BFC200B20485 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 09DB998E1D16BFC200B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB99911D16BFC200B20485 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 09DB99901D16BFC200B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB99931D16BFC200B20485 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 09DB99921D16BFC200B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB99D91D16C31600B20485 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 09DB99D81D16C31600B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB99DB1D16C31600B20485 /* SwiftyJSON iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON iOS Tests.xctest";
+			remoteRef = 09DB99DA1D16C31600B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB99DD1D16C31600B20485 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 09DB99DC1D16C31600B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB99DF1D16C31600B20485 /* SwiftyJSON OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON OSX Tests.xctest";
+			remoteRef = 09DB99DE1D16C31600B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB99E11D16C31600B20485 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 09DB99E01D16C31600B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB99E31D16C31600B20485 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 09DB99E21D16C31600B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DB99E51D16C31600B20485 /* SwiftyJSON tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON tvOS Tests.xctest";
+			remoteRef = 09DB99E41D16C31600B20485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		09C0D6031D16BEB00078B7DF /* Resources */ = {
@@ -126,6 +586,23 @@
 				09C0D6131D16BEB10078B7DF /* LaunchScreen.storyboard in Resources */,
 				09C0D6101D16BEB10078B7DF /* Assets.xcassets in Resources */,
 				09C0D60E1D16BEB10078B7DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DB99EC1D16C83A00B20485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DB99F41D16C83A00B20485 /* Assets.xcassets in Resources */,
+				09DB99F21D16C83A00B20485 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DB99F81D16C83B00B20485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DB9A081D16C83B00B20485 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +618,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		09DB99F61D16C83B00B20485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DB9A211D16CD3900B20485 /* Song.swift in Sources */,
+				09DB9A021D16C83B00B20485 /* InterfaceController.swift in Sources */,
+				09DB9A1F1D16CCBB00B20485 /* SongRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09DB999C1D16C09900B20485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 09DB999B1D16C09900B20485 /* PBXContainerItemProxy */;
+		};
+		09DB99E91D16C32300B20485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON iOS";
+			targetProxy = 09DB99E81D16C32300B20485 /* PBXContainerItemProxy */;
+		};
+		09DB99FD1D16C83B00B20485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DB99F91D16C83B00B20485 /* Watch Extension */;
+			targetProxy = 09DB99FC1D16C83B00B20485 /* PBXContainerItemProxy */;
+		};
+		09DB9A0B1D16C83B00B20485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DB99ED1D16C83A00B20485 /* Watch */;
+			targetProxy = 09DB9A0A1D16C83B00B20485 /* PBXContainerItemProxy */;
+		};
+		09DB9A181D16C84D00B20485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON watchOS";
+			targetProxy = 09DB9A171D16C84D00B20485 /* PBXContainerItemProxy */;
+		};
+		09DB9A1D1D16C85D00B20485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire watchOS";
+			targetProxy = 09DB9A1C1D16C85D00B20485 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		09C0D60C1D16BEB10078B7DF /* Main.storyboard */ = {
@@ -158,6 +678,14 @@
 				09C0D6121D16BEB10078B7DF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		09DB99F01D16C83A00B20485 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DB99F11D16C83A00B20485 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -250,6 +778,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RadioFgPlaylist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.ovde.RadioFgPlaylist;
@@ -261,10 +790,73 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RadioFgPlaylist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.ovde.RadioFgPlaylist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09DB9A0E1D16C83B00B20485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.ovde.RadioFgPlaylist.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		09DB9A0F1D16C83B00B20485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.ovde.RadioFgPlaylist.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		09DB9A121D16C83B00B20485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = be.ovde.RadioFgPlaylist.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		09DB9A131D16C83B00B20485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = be.ovde.RadioFgPlaylist.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
 		};
@@ -285,6 +877,23 @@
 			buildConfigurations = (
 				09C0D6181D16BEB10078B7DF /* Debug */,
 				09C0D6191D16BEB10078B7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DB9A0D1D16C83B00B20485 /* Build configuration list for PBXNativeTarget "Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DB9A0E1D16C83B00B20485 /* Debug */,
+				09DB9A0F1D16C83B00B20485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09DB9A111D16C83B00B20485 /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DB9A121D16C83B00B20485 /* Debug */,
+				09DB9A131D16C83B00B20485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
