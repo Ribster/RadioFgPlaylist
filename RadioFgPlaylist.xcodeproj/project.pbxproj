@@ -888,6 +888,7 @@
 				09DB9A0F1D16C83B00B20485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09DB9A111D16C83B00B20485 /* Build configuration list for PBXNativeTarget "Watch" */ = {
 			isa = XCConfigurationList;
@@ -896,6 +897,7 @@
 				09DB9A131D16C83B00B20485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

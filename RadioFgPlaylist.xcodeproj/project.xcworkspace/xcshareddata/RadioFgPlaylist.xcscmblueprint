@@ -1,13 +1,16 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EBE0CD3FA0AC3F36BCD2F8529264120F4EF885DC",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EBE0CD3FA0AC3F36BCD2F8529264120F4EF885DC" : 0,
     "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : 0,
     "67620B5EFA902936DF04070AF595B76AB0333747" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "736C57C2-0DFA-4777-9A18-5A3DF5FAE5E1",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EBE0CD3FA0AC3F36BCD2F8529264120F4EF885DC" : "RadioFgPlaylist\/",
     "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : "RadioFgPlaylist\/SwiftyJSON\/",
     "67620B5EFA902936DF04070AF595B76AB0333747" : "RadioFgPlaylist\/Alamofire\/"
   },
@@ -24,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SwiftyJSON\/SwiftyJSON",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:4ilo\/RadioFgPlaylist.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EBE0CD3FA0AC3F36BCD2F8529264120F4EF885DC"
     }
   ]
 }

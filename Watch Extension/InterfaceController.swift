@@ -19,12 +19,15 @@ class InterfaceController: WKInterfaceController
     var jsonData: JSON?
     var songs: [Song] = [Song]()
     
-    
-    override func awakeWithContext(context: AnyObject?)
+    //
+    //  De app is aan het openen
+    //
+    override func willActivate()
     {
-        super.awakeWithContext(context)
+        super.willActivate()
         
         getJsonData()
+        print("opnieuw aan het laden!")
     }
     
     //
