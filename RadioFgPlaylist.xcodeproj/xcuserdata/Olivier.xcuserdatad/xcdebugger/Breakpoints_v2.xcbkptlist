@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Watch Extension/InterfaceController.swift"
-            timestampString = "488104268.952931"
+            timestampString = "488804231.370037"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "jsonDataOntvangen(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,11 +58,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Watch Extension/InterfaceController.swift"
-            timestampString = "488104268.952931"
+            timestampString = "488804231.370037"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "jsonDataOntvangen(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Watch Extension/InterfaceController.swift"
+            timestampString = "488804190.089328"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "jsonDataOntvangen(_:)"
             landmarkType = "5">
          </BreakpointContent>

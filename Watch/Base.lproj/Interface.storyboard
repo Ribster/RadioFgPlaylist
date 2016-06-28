@@ -50,6 +50,15 @@
                         </table>
                         <imageView width="66" height="66" alignment="center" verticalAlignment="center" image="glance" animationDuration="3" id="20p-y1-2mh"/>
                     </items>
+                    <menu key="menu" id="nhN-W5-BDf">
+                        <items>
+                            <menuItem title="Herlaad" icon="resume" id="HWa-Ci-HyM">
+                                <connections>
+                                    <action selector="refreshPressed" destination="AgC-eL-Hgc" id="fcI-uz-bni"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                     <connections>
                         <outlet property="SongsTable" destination="qZN-EX-SEe" id="ihh-QK-eit"/>
                         <outlet property="loadingImage" destination="20p-y1-2mh" id="aXp-BP-zyO"/>

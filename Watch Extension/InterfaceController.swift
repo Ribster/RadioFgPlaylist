@@ -20,6 +20,15 @@ class InterfaceController: WKInterfaceController
     var jsonData: JSON?
     var songs: [Song] = [Song]()
     
+    
+    //
+    //  De user heeft op refresh geklikt
+    //
+    @IBAction func refreshPressed()
+    {
+        getJsonData();
+    }
+    
     //
     //  De app is aan het openen
     //
@@ -28,7 +37,6 @@ class InterfaceController: WKInterfaceController
         super.willActivate()
         
         getJsonData()
-        print("opnieuw aan het laden!")
     }
     
     //
@@ -80,6 +88,7 @@ class InterfaceController: WKInterfaceController
     {
         if self.jsonData != nil
         {
+            self.songs = [Song]()
             for (var i = 0; i < self.jsonData?.count; i+=1)
             {
                 let tempSong = Song(titel: self.jsonData![i]["titel"].stringValue, artiest: self.jsonData![i]["artiest"].stringValue)
